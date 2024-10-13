@@ -259,7 +259,7 @@ apt-get install git
 * Actualice `~/.ssh/config` de manera apropiada:
 
 ```bash
-usuario@ubuntu:~/.ssh$ ssh-keygen -tdsa
+usuario@ubuntu:~/.ssh$ ssh-keygen -t rsa
 ...
 usuario@ubuntu:~/src/pl$ vi ~/.ssh/config
 ...
